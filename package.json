@@ -12,7 +12,8 @@
     "vite": "^5.0.0"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "*"
+    "@rollup/rollup-linux-x64-gnu": "*",
+    "@esbuild/linux-x64": "*"
   },
   "engines": {
     "node": ">=18.0.0"
