@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/LinguaFlow/', // Ruta exacta para tu repositorio en GitHub Pages
+  base: '/LinguaFlows2/', // CORREGIDO: Debe coincidir con el nombre de tu nuevo repositorio
   build: {
     outDir: 'dist'
   }
