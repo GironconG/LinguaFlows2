@@ -3,7 +3,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["main2"] # Configurado para tu nueva rama maestra
+    branches: ["main"] # Configurado para tu rama maestra main
   workflow_dispatch:
 
 permissions:
