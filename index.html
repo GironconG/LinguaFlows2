@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinguaFlow - Aprende un Idioma con Dinamismo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Dashboard / Lessons Container -->
+        <header class="navbar glass">
+            <div class="logo">Lingua<span>Flow</span></div>
+            <div class="stats">
+                <div class="streak-badge">⚡ 0</div>
+                <div class="stars">★ 0</div>
+            </div>
+        </header>
+
+        <main class="content">
+            <section id="onboarding" class="onboarding-screen">
+                <h1 class="gradient-text">Vitrina de Aprendizaje</h1>
+                <p>Selecciona una pieza de conocimiento para comenzar tu colección.</p>
+                
+                <div class="showcase-grid">
+                    <!-- Missions will be injected here by main.js -->
+                </div>
+            </section>
+
+            <section id="lesson-view" class="lesson-screen hidden">
+                <!-- Lessons will be dynamically injected here -->
+            </section>
+
+            <section id="chat-view" class="chat-screen hidden">
+                <!-- Practice Chat Component -->
+            </section>
+        </main>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
